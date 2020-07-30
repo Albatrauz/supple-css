@@ -21,41 +21,42 @@
     ========================================================================= */
 
 @use 'generic/reset';
+@use 'generic/headings';
 
 
 
-/*  Elements
+/*  Composition
     ========================================================================= */
 
-@use 'elements/headings';
+@use 'composition/layout';
+@use 'composition/mesh';
 
 
 
-/*  Objects
+/*  Utility
     ========================================================================= */
 
-@use 'objects/list-clean';
-@use 'objects/layout';
-@use 'objects/mesh';
-@use 'objects/retain';
-@use 'objects/aspect-ratio';
+@use 'utility/aspect-ratio';
+@use 'utility/list-clean';
+@use 'utility/retain';
+@use 'utility/colspan';
+@use 'utility/colstart';
+@use 'utility/clearfix';
+@use 'utility/module';
+@use 'utility/spacing';
+@use 'utility/visually-hidden';
+@use 'utility/hidden';
 
 
 
-/*  Components
+/*  Block
     ========================================================================= */
 
-/* Add your own, yo */
+// Add your own
 
 
 
-/*  Utilities
+/*  Exception
     ========================================================================= */
 
-@use 'utilities/colspan';
-@use 'utilities/colstart';
-@use 'utilities/clearfix';
-@use 'utilities/module';
-@use 'utilities/spacing';
-@use 'utilities/visually-hidden';
-@use 'utilities/hidden';
+// Add your own

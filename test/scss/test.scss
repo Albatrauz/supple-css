@@ -24,47 +24,39 @@
     ========================================================================= */
 
 @use '../../lib/generic/reset';
+@use '../../lib/generic/headings';
+@use 'generic/toplevel';
 
 
 
-/*  Elements
+/*  Composition
     ========================================================================= */
 
-@use '../../lib/elements/headings';
-@use 'elements/toplevel';
+@use '../../lib/composition/layout';
+@use '../../lib/composition/mesh';
 
 
 
-/*  Objects
+/*  Utility
     ========================================================================= */
 
-@use '../../lib/objects/list-clean';
-@use '../../lib/objects/layout';
-@use '../../lib/objects/mesh';
-@use '../../lib/objects/retain';
-@use '../../lib/objects/aspect-ratio';
+@use '../../lib/utility/list-clean';
+@use '../../lib/utility/retain';
+@use '../../lib/utility/aspect-ratio';
+@use '../../lib/utility/colspan';
+@use '../../lib/utility/colstart';
+@use '../../lib/utility/clearfix';
+@use '../../lib/utility/module';
+@use '../../lib/utility/spacing';
+@use '../../lib/utility/visually-hidden';
+@use '../../lib/utility/hidden';
 
 
 
-/*  Components
+/*  Block
     ========================================================================= */
 
-@use 'components/test';
-@use 'components/fixture-box';
-@use 'components/preformatted';
-@use 'components/css-lock';
-
-
-
-/*  Utilities
-    ========================================================================= */
-
-@use '../../lib/utilities/colspan';
-@use '../../lib/utilities/colstart';
-@use '../../lib/utilities/clearfix';
-@use '../../lib/utilities/module';
-@use '../../lib/utilities/spacing';
-@use '../../lib/utilities/visually-hidden';
-@use '../../lib/utilities/hidden';
-
-@use '../../lib/tools/mixins';
+@use 'block/test';
+@use 'block/fixture-box';
+@use 'block/preformatted';
+@use 'block/css-lock';

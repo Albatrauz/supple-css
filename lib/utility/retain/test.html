@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test utility.retain - Supple CSS</title>
+  <link rel="stylesheet" href="../../../test/css/test.css">
+</head>
+<body>
+
+  <div class="b-test">
+    <h1 class="b-test__title">Supple CSS: utility.retain tests</h1>
+
+    <h2 class="b-test__describe">.u-retain</h2>
+
+    <h3 class="b-test__it">Is padded at both sides</h3>
+    <div class="b-test__run">
+      <div class="u-retain">
+        <div class="b-fixture-box">Retained</div>
+      </div>
+    </div>
+
+    <h3 class="b-test__it">supports dynamic sizes (eg.: --size: 30em)</h3>
+    <div class="b-test__run">
+      <div class="u-retain" style="--size: 30em;">
+        <div class="b-fixture-box">Retained 30em</div>
+      </div>
+    </div>
+
+    <h2 class="b-test__describe">.u-retain--no-padding</h2>
+    <h3 class="b-test__it">Is not padded at both sides</h3>
+    <div class="b-test__run">
+      <div class="u-retain  u-retain--no-padding">
+        <div class="b-fixture-box">Retained</div>
+      </div>
+    </div>
+
+    <h2 class="b-test__describe">.u-retain--lap</h2>
+    <h3 class="b-test__it">Is retained at 640px</h3>
+    <div class="b-test__run">
+      <div class="u-retain  u-retain--lap">
+        <div class="b-fixture-box">Retained</div>
+      </div>
+    </div>
+
+    <h2 class="b-test__describe">.u-retain--desk</h2>
+    <h3 class="b-test__it">Is retained at 960px</h3>
+    <div class="b-test__run">
+      <div class="u-retain  u-retain--desk">
+        <div class="b-fixture-box">Retained</div>
+      </div>
+    </div>
+
+    <h2 class="b-test__describe">.u-retain--wall</h2>
+    <h3 class="b-test__it">Is retained at 1280px</h3>
+    <div class="b-test__run">
+      <div class="u-retain  u-retain--wall">
+        <div class="b-fixture-box">Retained</div>
+      </div>
+    </div>
+
+  </div><!-- .b-test -->
+</body>
+</html>
