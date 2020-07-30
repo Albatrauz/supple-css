@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test composition.flow - Supple CSS</title>
+  <link rel="stylesheet" href="../../../test/css/test.css">
+</head>
+<body>
+
+  <div class="b-test">
+    <h1 class="b-test__title">Supple CSS: composition.flow tests</h1>
+
+    <h2 class="b-test__describe">.c-flow</h2>
+
+    <h3 class="b-test__it">renders cells at full-width by default</h3>
+    <div class="b-test__run">
+          <div class="b-fixture-box--wrap  c-flow">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi totam obcaecati quibusdam repellat, magni iusto, laboriosam assumenda nam porro veritatis tenetur quas explicabo neque quasi sequi numquam. Quasi, reprehenderit!</p>
+            <ul>
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+              <li>
+                List item 4
+                <ul>
+                  <li>List item 1</li>
+                  <li>List item 2</li>
+                </ul>
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+    </div><!-- .test__run -->
+
+  </div><!-- .test -->
+</body>
+</html>
