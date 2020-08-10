@@ -9,9 +9,9 @@ Supple CSS is a reliable and testable [Sass](https://sass-lang.com/) framework i
 
 * [Why use Supple](#why-use-supple)
 * [Features](#features)
+* [CUBE CSS](#cube-css)
 * [Browser support](#browser-support)
 * [Installation](#installation)
-* [CUBE CSS](#cube-css)
 * [Getting started](#getting-started)
 
 ## Why use supple:
