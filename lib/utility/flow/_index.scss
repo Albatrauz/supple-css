@@ -1,5 +1,5 @@
 /*  =========================================================================
-    composition.flow
+    utility.flow
     Create a rule that sibling elements apply a common margin that is either
     globally defined or contextually set.
     ========================================================================= */
@@ -36,7 +36,7 @@
 /*  Module
     ========================================================================= */
 
-.c-flow {
+.u-flow {
   --flow-space: #{functions.value-to-rem(variables.$space)};
 
   > * + * {

@@ -34,7 +34,6 @@
 
 @use '../../lib/composition/layout';
 @use '../../lib/composition/mesh';
-@use '../../lib/composition/flow';
 
 
 
@@ -51,6 +50,7 @@
 @use '../../lib/utility/spacing';
 @use '../../lib/utility/visually-hidden';
 @use '../../lib/utility/hidden';
+@use '../../lib/utility/flow';
 
 
 
