@@ -40,7 +40,7 @@
   --size: #{functions.value-to-rem(variables.$size)};
 
   > * + * {
-    margin-top: var(--size);
+    margin-block-start: var(--size);
   }
 }
 
