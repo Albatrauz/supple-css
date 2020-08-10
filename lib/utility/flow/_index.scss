@@ -37,9 +37,16 @@
     ========================================================================= */
 
 .u-flow {
-  --flow-space: #{functions.value-to-rem(variables.$space)};
+  --size: #{functions.value-to-rem(variables.$size)};
 
   > * + * {
-    margin-top: var(--flow-space);
+    margin-top: var(--size);
+  }
+}
+
+
+@each $size-namespace, $size in variables.$sizes {
+  .u-flow--#{$size-namespace} {
+    --flow-gap: #{functions.value-to-rem($size)};
   }
 }
