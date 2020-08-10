@@ -189,7 +189,6 @@ A utility, in the context of CUBE CSS, is a CSS class that does one job and does
 * [utilities/colspan](lib/utilities/colspan), provides a colspan custom property for use in objects or components.
 * [utilities/colstart](lib/utilities/colstart), provides a column start custom property for use in objects or components.
 * [utilities/clearfix](lib/utilities/clearfix), Clears floats.
-* [utilities/module](lib/utilities/module), removes the `margin-bottom` from the last childs of a module.
 * [utilities/flow](lib/utilities/flow), Create flow and rhythm between elements.
 * [utilities/spacing](lib/utilities/spacing), utility classes to put specific spacing values onto elements.
 * [utilities/visually-hidden](lib/utilities/visually-hidden), hides an element visually while still allowing the content to be accessible.
