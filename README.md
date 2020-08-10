@@ -32,7 +32,7 @@ A grasp of Supple's featureset:
 ### CUBE CSS
 <img src="https://piccalilli.imgix.net/images/cube/logo.svg" alt="The CUBE CSS logo which is navy type wrapping a pink cube with dashed inner lines" loading="lazy" width="200">
 
-[CUBE CSS](https://cube.fyi) is a CSS methodology that’s orientated towards simplicity, pragmatism and consistency. It’s designed to work with the medium that you’re working in—often the browser—rather than against it.
+[CUBE CSS](https://cube.fyi) is a CSS methodology that’s orientated towards simplicity, pragmatism and consistency. It’s designed to work **with** the medium that you’re working in—often the browser—rather than against it.
 
 ### Size
 
@@ -149,7 +149,7 @@ import './index.scss';
 ## Available modules
 All Supple's modules are created based on the [CUBE CSS](https://cube.fyi) methodology.
 
-**Note** every module has its own readme on how to use the module. In the below list you can click tthrough to the connected documentation.
+**Note** every module has its own readme on how to use the module. In the below list you can click through to the connected documentation.
 
 ### Settings
 This layer is the first layer and holds any global settings for your project. It should only house settings that need to be accessed from anywhere.
@@ -190,6 +190,7 @@ A utility, in the context of CUBE CSS, is a CSS class that does one job and does
 * [utilities/colstart](lib/utilities/colstart), provides a column start custom property for use in objects or components.
 * [utilities/clearfix](lib/utilities/clearfix), Clears floats.
 * [utilities/module](lib/utilities/module), removes the `margin-bottom` from the last childs of a module.
+* [utilities/flow](lib/utilities/flow), Create flow and rhythm between elements.
 * [utilities/spacing](lib/utilities/spacing), utility classes to put specific spacing values onto elements.
 * [utilities/visually-hidden](lib/utilities/visually-hidden), hides an element visually while still allowing the content to be accessible.
 * [utilities/hidden](lib/utilities/hidden), completely remove from the flow and hide it from screenreaders.
