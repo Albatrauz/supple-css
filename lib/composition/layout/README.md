@@ -48,7 +48,7 @@ For more granular control over layout make use of modifiers, custom properties o
 ### Modifiers on `c-layout`
 
 ```html
-<div class="c-layout  [c-layout--align-inline-center  |  c-layout--align-inline-end  |  c-layout--align-block-center  |  c-layout--align-block-end  |  c-layout--fill  |  c-layout--fit  |  c-layout--equal-block-size  |  c-layout--gap-base]">
+<div class="c-layout  [c-layout--align-inline-center  |  c-layout--align-inline-end  |  c-layout--align-block-center  |  c-layout--align-block-end  |  c-layout--fill  |  c-layout--fit  |  c-layout--stretch  |  c-layout--gap-base]">
   <div class="c-layout__cell"></div>
   <div class="c-layout__cell"></div>
   <div class="c-layout__cell"></div>
@@ -140,7 +140,7 @@ When you set breakpoints in `$fill-in-breakpoint` or `$fit-in-breakpoint` you ca
 * `.c-layout--reverse`: reverse all cells in order
 * `.c-layout--fill`: evenly distribute space amongst all child cells
 * `.c-layout--fit`: fit all cells to their content
-* `.c-layout--equal-block-size`: All cells match the size of tallest cell in a row on the block axis
+* `.c-layout--stretch`: All cells match the size of tallest cell in a row on the block axis
 * `.c-layout--gap-base`: adds a base gutter between cells
 
 **On the `.c-layout__cell` element**

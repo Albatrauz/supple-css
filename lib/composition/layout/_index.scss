@@ -160,12 +160,12 @@
 
 
 /**
- * Modifier: equal-block-size
+ * Modifier: stretch
  * All cells match the size of tallest cell in a row
- * 1. The direct child of the flexbox must be a single element when you want
- *    to use equal-block-size
+ * 1. The direct child of the layout__cell must be a single element when you want
+ *    to use stretch
  */
-.c-layout--equal-block-size {
+.c-layout--stretch {
   > .c-layout__cell {
     display: flex;
 
