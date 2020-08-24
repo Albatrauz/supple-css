@@ -1,6 +1,6 @@
 # Supple CSS | utility.colstart
 
-Utility which provides a colstart custom property for use in objects or components which can handle those colstarts eg. `object.layout` and `object.mesh`.
+Utility which provides a colstart custom property for use in compositions or blocks which can handle those colstarts eg. `composition.layout` and `composition.mesh`.
 
 Read more about [Supple CSS](https://github.com/supple-css/supple).
 
@@ -15,8 +15,8 @@ Read more about [Supple CSS](https://github.com/supple-css/supple).
 
 ## Features
 
-* Easy & flexible column starts in your objects & components
-* Works nicely with `objects.layout` and `objects.mesh`
+* Easy & flexible column starts in your compositions & blocks
+* Works nicely with `composition.layout` and `composition.mesh`
 
 ## Use
 

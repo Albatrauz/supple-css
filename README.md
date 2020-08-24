@@ -25,8 +25,7 @@ A grasp of Supple's featureset:
 * Built with the [CUBE CSS](https://cube.fyi) methodology.
 * Sensible, powerfull reset for web applications.
 * Suite of functions and mixins for speedy development.
-* CSS Grid & Flexbox objects  for creating layouts.
-* Objects for reusable solutions to common features.
+* CSS Grid & Flexbox compositions  for creating layouts.
 * Variety of utility classes for the most common problems like visually hiding, spacing and more.
 
 ### CUBE CSS
@@ -186,8 +185,8 @@ A utility, in the context of CUBE CSS, is a CSS class that does one job and does
 * [utility/list-clean](lib/utility/list-clean), strip appearance from lists by removing their bullets and indents
 * [utility/retain](lib/utility/retain), page-level constraining and wrapping elements
 * [utility/aspect-ratio](lib/utility/aspect-ratio), retain a specific aspect ratio but adapt to elements of variable widths
-* [utilities/colspan](lib/utilities/colspan), provides a colspan custom property for use in objects or components.
-* [utilities/colstart](lib/utilities/colstart), provides a column start custom property for use in objects or components.
+* [utilities/colspan](lib/utilities/colspan), provides a colspan custom property for use in compositions or blocks.
+* [utilities/colstart](lib/utilities/colstart), provides a column start custom property for use in compositions or blocks.
 * [utilities/clearfix](lib/utilities/clearfix), Clears floats.
 * [utilities/flow](lib/utilities/flow), Create flow and rhythm between elements.
 * [utilities/spacing](lib/utilities/spacing), utility classes to put specific spacing values onto elements.

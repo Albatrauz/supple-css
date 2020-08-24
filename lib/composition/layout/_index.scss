@@ -63,7 +63,7 @@
  * Element modifier: align-inline-center
  * center one cell on the inline axis
  * Set a specific unit to be horizontally centered. Doesn't affect
- * any other units. Can still contain a child `layout` object.
+ * any other units. Can still contain a child `layout` composition.
  */
 .c-layout__cell--align-inline-center {
   margin-inline-start: auto;

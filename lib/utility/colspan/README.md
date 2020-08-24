@@ -1,6 +1,6 @@
 # Supple CSS | utility.colspan
 
-Utility which provides a colspan custom property for use in objects or components which can handle those colspans eg. `object.layout` or `object.mesh`.
+Utility which provides a colspan custom property for use in compositions or blocks which can handle those colspans eg. `composition.layout` or `composition.mesh`.
 
 Read more about [Supple CSS](https://github.com/supple-css/supple).
 
@@ -15,8 +15,8 @@ Read more about [Supple CSS](https://github.com/supple-css/supple).
 
 ## Features
 
-* Easy & flexible colspans in your objects & components
-* Works nicely with `objects.layout` and `objects.mesh`
+* Easy & flexible colspans in your compositions & blocks
+* Works nicely with `composition.layout` and `composition.mesh`
 
 ## Use
 

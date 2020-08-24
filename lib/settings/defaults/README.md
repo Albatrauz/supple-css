@@ -50,7 +50,7 @@ And when you need the variables in your own module you can use them like this:
 ## Configurable SCSS variables
 
 ### `$baseline`
-By default supple creates an 8 point baseline to create vertical (and horizontal) rhythm. Everything is spaced by this baseline: margins, paddings and gaps in `objects.mesh` and `objects.layout`. More information:
+By default supple creates an 8 point baseline to create vertical (and horizontal) rhythm. Everything is spaced by this baseline: margins, paddings and gaps in `composition.mesh` and `composition.layout`. More information:
 * [https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632](https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632)
 * [https://medium.freecodecamp.org/8-point-grid-typography-on-the-web-be5dc97db6bc](https://medium.freecodecamp.org/8-point-grid-typography-on-the-web-be5dc97db6bc)
 
@@ -114,7 +114,7 @@ $line-height: $space-base !default; // 3 * 8px = 24px
 ```
 
 ### Grid
-You can set a global `$columns` variable which is used in `objects.layout`, `objects.mesh`, `utilities.colspan` & `utilities.colstart`.
+You can set a global `$columns` variable which is used in `composition.layout`, `composition.mesh`, `utilities.colspan` & `utilities.colstart`.
 
 **example:**
 ```scss
@@ -138,7 +138,7 @@ $responsive: true;
 
 // Define the breakpoint from $breakpoints that should be used as the target width for
 // the fixed-width layout (i.e. when $responsive is set to 'false') in a old-ie.scss.
-// This variable is also used in `objects.retain` in the `wall` modifier
+// This variable is also used in `utility.retain` in the `wall` modifier
 $static-breakpoint-size: 1280px;
 
 // the name of the static breakpoint
